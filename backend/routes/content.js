@@ -1,0 +1,1 @@
+const express = require('express');const router = express.Router();router.get('/', (req, res) => {res.send('Get all content');});router.get('/:contentId', (req, res) => {res.send('Get content details');});module.exports = router;
